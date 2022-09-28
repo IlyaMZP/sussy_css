@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "sass sass/main.scss css/style.css",
     "compile_min": "sass sass/main.scss css/style.css --style compressed",
-    "start": "xdg-open index.html"
+    "start": "python -m http.server"
   },
   "keywords": [
     "sus"
