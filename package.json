@@ -1,0 +1,22 @@
+{
+  "name": "sussy_css",
+  "version": "1.0.0",
+  "description": "Very Sussy CSS",
+  "main": "main.js",
+  "scripts": {
+    "compile": "sass sass/main.scss css/style.css",
+    "compile_min": "sass sass/main.scss css/style.css --style compressed",
+    "start": "xdg-open index.html"
+  },
+  "keywords": [
+    "sus"
+  ],
+  "author": "MZP",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  },
+  "devDependencies": {
+    "sass": "^1.54.9"
+  }
+}
